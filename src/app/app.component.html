@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Billing Page</title>
+</head>
+<body>
+  <div class="header">
+  
+    <div class="sel-content">
+      <select>
+    <option>EN</option>
+    <option>IND</option>
+  </select>
+  <select>
+    <option>USD</option>
+    <option>IND</option>
+  </select>
+    </div>
+    <div class="profile">Myprofile  </div>
+      <div class="profileicon">
+      <img src="assets/profile_close_2.png">
+    </div>
+    <div class="cart">
+      <img src="assets/Cart.png">
+    </div>
+    <div class="item" > Items</div>
+    <div class="item2">$0.00</div>
+    <div class="ping">
+      <img src="assets/search-icon.png">
+    </div>
+  </div>
+  <div class="header2">
+    <div class="hot">Home</div>
+    <div class="home">Hot Deal</div>
+    <div class="home3">NikeAirmax270React</div>
+  </div>
+  
+  <div class="vertdiv2">
+    <img src="assets/Group 491.png">
+  </div>
+  <div class="home2">HOME</div>
+ 
+  <div class="bag">
+
+  
+   
+    <a routerLink="bag">BAGS</a>
+  
+
+  </div>
+  <div class="SNEAKERS">SNEAKERS</div>
+  <div class="BELT">BELT</div>
+  <div class="CONTACT">CONTACT</div>
+  
+   <div class="maintable">
+    <table>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <thead><br>
+        <tr class="row0">
+          <th class="col1">Product</th>
+         <th class="col2">PRICE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+          <th class="col3">QTY</th>
+          <th class="col4">UNITPRICE</th>
+          
+         
+        </tr>
+        <br>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let item of UserData; let i = index">
+          <tr>
+            <td>
+              <img [src]="item.image1" (click)="calculateTotalPrice(item)">
+            
+              <img [src]="item.image">
+            </td>
+            <td>{{ item.Product }}</td><br><br>
+            <td class="PRICE">{{ item.PRICE }}</td>
+            <td>
+              <div class="container">
+                <button (click)="increment(item)" class="symbol">+</button>
+                <span class="value">{{ item.quantity }}</span>
+                <button (click)="decrement(item)" class="symbol">-</button>
+              </div>
+            </td><br><br>
+            <td class="UNITPRICE">{{ calculateTotalPrice(item) }}</td>
+          </tr>
+        </ng-container>
+        <div class="menubar2">
+  <input type="text" [(ngModel)]="voucherCode" placeholder="Enter voucher code">
+  <button (click)="applyVoucher()">Apply</button>
+  
+
+</div>
+</tbody>
+    </table>
+   </div>
+   <div class="total">
+    
+<tr>
+  <td class="Subtotal">Subtotal:</td>
+  <td class="Subtotal1" colspan="3">{{ subtotal | currency }}</td>
+</tr>
+<tr>
+  <div class="ship">Shipping Fee:
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ${{ shippingFee }}</div>
+  
+</tr>
+
+<tr>
+  <td class="TOTAL1">TOTAL:</td>
+  <td class="TOTAL2" colspan="3">{{ total | currency }}</td>
+</tr>
+
+
+   </div>
+   <div class="footer">
+    <img src="assets/footer (1).png">
+   </div>
+</body>
+</html>

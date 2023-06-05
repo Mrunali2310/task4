@@ -1,0 +1,797 @@
+.header{
+
+    
+    left: 0.21%;
+    right: -0.24%;
+   
+    bottom: 70.4%;
+    height: 42px;
+width: 1500.3878173828125px;
+left: 3.21044921875px;
+top: 32.52777099609375px;
+border-radius: 0px;
+
+
+}
+.en{
+   
+    left: 7.15%;
+    right: 91.12%;
+    top: 1.21%;
+    bottom: 97.95%;
+    
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size:15px;
+    line-height: 24px;
+    
+    color: #262626;
+    
+}
+.usd{
+  position: absolute;
+    left: 4.57%;
+    right: 86.76%;
+    top: 1.21%;
+    bottom: 97.95%;
+    
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    
+    color: #22262A;
+    
+}
+.profile{
+    
+position: absolute;
+left: 73.11%;
+right: 26.09%;
+top: 2.15%;
+bottom: 98.01%;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 24px;
+
+color: #262626;
+
+}
+.profileicon{
+ position: absolute;
+left: 70.34%;
+right: 32.32%;
+top: 2.40%;
+bottom: 98.08%;
+
+background: #22262A;
+}
+.cart{
+    position: absolute;
+left: 78.84%;
+right: 21.16%;
+top: 0%;
+bottom: 97.19%;
+
+/* Background/White */
+
+/* background: #FFFFFF; */
+}
+.item{
+    position: absolute;
+left: 83.79%;
+right: 16.68%;
+top: 2.14%;
+bottom: 98.02%;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #262626;
+
+}
+.item2{
+    position: absolute;
+    left: 88.45%;
+    right: 11.08%;
+    top: 2.17%;
+    bottom: 97.99%;
+    
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #262626;
+    
+    opacity: 0.5;
+}
+.ping{
+    
+position: absolute;
+left: 92.49%;
+right: 9.11%;
+top: 2.21%;
+bottom: 98.06%;
+
+
+}
+.header2{
+    position: absolute;
+left: -0.03%;
+right: 0%;
+top: 14.72%;
+bottom: 91.5%;
+height: 51px;
+width: 1500px;
+
+background: #F6F7F8;
+opacity: 0.5;
+}
+.hot{
+    position: absolute;
+left: 41%;
+right: 51.8%;
+top: 19.23%;
+bottom: 92%;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #33A0FF;
+
+}
+.home{
+    position: absolute;
+left: 44.67%;
+right: 45.67%;
+top: 19.23%;
+bottom: 92%;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #262626;
+
+}
+.vertdiv2{
+    position: absolute;
+left: 0.1%;
+right: 84.14%;
+top: 6.82%;
+bottom: 94.64%;
+
+}
+.home2{
+    position: absolute;
+left: 33.93%;
+right: 59.4%;
+top: 7.82%;
+bottom: 94.92%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+
+color: #40BFFF;
+
+}
+.bag{
+    position: absolute;
+left: 47.12%;
+right: 48.54%;
+top: 7.82%;
+bottom: 94.92%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+
+color: #262626;
+
+}
+.SNEAKERS{
+    position: absolute;
+left: 58.98%;
+right: 34.08%;
+top: 7.82%;
+bottom: 94.92%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+
+color: #262626;
+
+}
+.BELT{
+    position: absolute;
+left: 76.44%;
+right: 24.09%;
+top: 7.82%;
+bottom: 94.92%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+
+color: #262626;
+
+}
+.CONTACT{
+    position: absolute;
+left: 86.43%;
+right: 9.7%;
+top: 7.82%;
+bottom: 94.92%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+
+color: #262626;
+
+}
+.product{
+    position: absolute;
+    left: 4.3%;
+    right: 82.9%;
+    top: 24.46%;
+    bottom: 84.05%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #22262A;
+    
+}
+.home3{
+    position: absolute;
+left: 50.64%;
+right: 41.24%;
+top: 19.3%;
+bottom: 88.6%;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #262626;
+
+}
+.price{
+    position: absolute;
+    left: 59.46%;
+    right: 38.53%;
+    top: 23.46%;
+    bottom: 84.05%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #22262A;
+    
+}
+.quilty{
+    position: absolute;
+    left: 73.2%;
+    right: 27.94%;
+    top: 23.46%;
+    bottom: 84.05%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  color: #22262A;
+    
+}
+.unit{
+    position: absolute;
+    left: 86.2%;
+    right: 27.94%;
+    top: 23.46%;
+    bottom: 84.05%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  color: #22262A;
+}
+.col1{
+    position: absolute;
+height: 16px;
+
+right: 69%;
+top: -2px;
+bottom: 10px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: -0.331915px;
+
+/* Tiny/Black */
+
+color: #141414;
+
+}
+.maintable {
+    position: absolute;
+left: 6.93%;
+right: 9.33%;
+top: 1.46%;
+bottom: 41.66%;
+height: 279px;
+width: 1430.1070556640625px;
+left: 30px;
+top: 180.0322265625px;
+border-radius: 0px;
+
+}
+.row0{
+    position: sticky;
+    top: 0;
+    background-color: rgb(5, 26, 97);
+    overflow: auto;
+    z-index: 2;
+}
+th,
+td {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 40px;
+  letter-spacing: -0.331915px;
+  color: #67748E;
+  width: 400px;
+  
+ 
+  
+  padding: -1px; 
+}
+
+.PRICE {
+  font-size: 17px;
+  color: #67748E;
+  font-family: 'Kumbh Sans';
+  position: absolute;
+  left: 800px;
+ 
+ 
+
+ 
+ 
+
+}
+
+.QTY {
+  font-size: 14px;
+  color: #252F40;
+  left: 40px;
+
+}
+
+.UNITPRICE {
+  font-size: 14px;
+  color: #67748E;
+  position: absolute;
+  left: 1200px;
+ 
+ 
+  
+}
+
+.product{
+    font-size: 18px;
+  color: #67748E;
+ bottom: 20%;
+ 
+ 
+}
+.Gender{
+    font-size: 14px;
+  color: #67748E;
+}
+
+table {
+  border: none;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.col1{
+    position: absolute;
+height: 16px;
+
+right: 83%;
+top: -2px;
+bottom: 10px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: -0.331915px;
+
+/* Tiny/Black */
+
+color: #141414;
+
+}
+
+.col2{
+    position: absolute;
+    height: 19px;
+    left: 50%;
+    right: 69%;
+    top: -1px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    letter-spacing: -0.387234px;
+    
+    /* Tiny/Black */
+    
+    color: #141414;
+}
+.col3{
+    position: absolute;
+height: 19px;
+left: 65.31%;
+right: 22.65%;
+top: -1px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.387234px;
+
+/* Tiny/Black */
+
+color: #141414;
+
+}
+.col4{
+    position:absolute;
+height: 19px;
+left: 79%;
+right: 6.67%;
+top: -1px;
+bottom: 70px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.387234px;
+
+/* Tiny/Black */
+
+color: #141414;
+
+}
+.col5{
+    position: absolute;
+height: 19px;
+left: 5.31%;
+right: 22.65%;
+top: -1px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.387234px;
+
+/* Tiny/Black */
+
+color: #141414;
+
+}
+
+img {
+
+    /* position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 20px;
+    border-radius: 8px;
+    z-index: 1; */
+
+}
+.container {
+    display: flex;
+    align-items: center;
+   
+  position: absolute;
+  
+    
+      left: 1020px;
+     
+      
+  }
+  
+  .symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 4px;
+    background-color: #b2beda;
+    width: 30px;
+    height: 32px;
+  
+  }
+  
+  .value {
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 4px;
+  
+  }
+  
+  
+  input[type="text"] {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 12px;
+    background-color: #6096fa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    ;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  .menubar2{
+    
+position: absolute;
+left: 1.03%;
+right: 66.5%;
+top: 110.87%;
+bottom: 54.24%;
+
+
+
+  }
+  .total{
+    position: absolute;
+left: 62.3%;
+right: 12.56%;
+top: 42.82%;
+bottom: 31.72%;
+height: 240px;
+width: 420.1040954589844px;
+left:900.478515625px;
+top: 440.0322265625px;
+border-radius: 0px;
+
+
+
+  }
+  .Subtotal{
+    position: absolute;
+left: 12.3%;
+right: 32.63%;
+top: 12.82%;
+bottom: 55.83%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #262626;
+
+  }
+  .Shippingfee{
+    position: absolute;
+left: 11.3%;
+right: 30.23%;
+top: 25.32%;
+bottom: 53.34%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+
+
+color: #262626;
+
+  }
+  .ship{
+    position: absolute;
+    left: 12.3%;
+    right: 30.23%;
+    top: 35.32%;
+    bottom: 53.34%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    
+    
+    color: #262626;
+  }
+  
+ .Coupon{
+    position: absolute;
+left: 12.3%;
+right: 32.83%;
+top: 38.81%;
+bottom: 50.85%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #262626;
+
+ }
+ .TOTAL1{
+    position: absolute;
+    left: 12.3%;
+    right: 32.83%;
+    top: 65.81%;
+    bottom: 50.85%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #262626;
+ }
+ .Subtotal1{
+    position: absolute;
+    left: 59.3%;
+    right: 32.83%;
+    top: 6.5%;
+    bottom: 50.85%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 45px;
+    color: #262626;
+ }
+ .Shippingfee1{
+    position: absolute;
+    left: 60.3%;
+    right: 32.83%;
+    top: 20.81%;
+    bottom: 50.85%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 45px;
+    color: #262626;
+ }
+ 
+ .TOTAL2{
+    position: absolute;
+    left: 57.3%;
+    right: 32.83%;
+    top: 65.81%;
+    bottom: 50.85%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 30px;
+    line-height: 45px;
+    color: #262626;
+ }
+ .abc{
+    position: relative;
+   top: 90px;
+        padding: 12px;
+        font-size: 14px;
+ }
+ .footer img{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 100.08%;
+bottom: 0%;
+height: 511px;
+width: 1500px;
+
+ }
